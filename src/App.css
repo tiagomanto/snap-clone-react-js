@@ -1,0 +1,20 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefc01;
+    height: 100vh;
+}
+.app__logo{
+    object-fit: contain;
+    height: 100px;
+}
+.app__body{
+    background: url("https://pbs.twimg.com/profile_images/1324384358418042880/A-ENfuMC_400x400.jpg");
+}
+.app__bodyBackground{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+}
